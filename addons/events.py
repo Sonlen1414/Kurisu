@@ -94,12 +94,15 @@ class Events:
         'enxhop',
         'exnhop',  # typo of the above, not sure how common
         'enxshop',  # also typo
+        'sx',
     )
 
     # terms that should cause a notice but not auto-delete
     piracy_tools_alert = (
         'freshop',
         'notabug',
+        'tx',
+        'wiisx', #added to prevent it from being auto deleted with the SX deletion
     )
 
     drama_alert = ()
